@@ -48,7 +48,8 @@ go get github.com/gsamokovarov/jump
 git clone https://github.com/gsamokovarov/jump
 cd jump
 make
-mv jump ~/bin # Or /usr/local/bin, if ~/bin isn't in $PATH.
+sudo ln -s ./jump ~/bin/jump
+# Or /usr/local/bin/jump if ~/bin isn't in $PATH
 ```
 
 ## Shell
